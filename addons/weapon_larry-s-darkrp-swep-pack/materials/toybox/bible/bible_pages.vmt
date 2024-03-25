@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "toybox/bible_pages"
+	"$nocull" 1
+	"$nodecal" 1
+}

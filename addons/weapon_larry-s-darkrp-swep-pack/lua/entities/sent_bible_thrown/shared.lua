@@ -1,0 +1,10 @@
+ENT.Base = "base_anim"
+ENT.Type = "anim"
+ENT.PrintName		= "Throwable Bible"
+ENT.Author			= "ARitz, modified by Nazi Raccoon"
+ENT.Category 		= ""
+ENT.Contact    		= ""
+ENT.Purpose 		= "THE POWER OF CHRIST COMPELLS YOU"
+ENT.Instructions 	= "E ON IT"
+ENT.Spawnable			= false
+ENT.AdminSpawnable		= false
