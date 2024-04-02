@@ -901,7 +901,7 @@ local function IsAllowed(Player, Class, EntityClass)
 	if (IsValid(Player) and not Player:IsAdmin()) then
 		if not duplicator.IsAllowed(Class) then return false end
 		if (not scripted_ents.GetMember(Class, "Spawnable") and not EntityClass) then return false end
-		if (scripted_ents.GetMember(Class, "AdminOnly") and NCBA_whitelist[Class] ~= true) then return false end
+		if (scripted_ents.GetMember(Class, "AdminOnly") and ad2_wl[Class] ~= true) then return false end
 	end
 	return true
 end
